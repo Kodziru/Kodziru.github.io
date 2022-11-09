@@ -3,16 +3,23 @@ $white: #fdffff;
 $orangePink: #f06449;
 $yellow: #ffcf00;
 $blue: #1ea896;
+$page: #fbece5;
 $font: Oswald;
 
 * {
     text-decoration: none;
     margin: 0;
     object-fit: cover;
+    list-style-type: none;
+    padding-left: none;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
 
+//animation
 @keyframes shakeAnim {
     0%,
     100% {
